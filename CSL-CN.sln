@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HanJie.CSLCN.Models", "HanJ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HanJie.CSLCN.Common", "HanJie.CSLCN.Common\HanJie.CSLCN.Common.csproj", "{D39F4836-9628-4130-B89B-A14784E27427}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HanJie.CSLCN.Tests", "HanJie.CSLCN.Tests\HanJie.CSLCN.Tests.csproj", "{15083B01-0D27-4E69-983A-DB0EB094FED0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D39F4836-9628-4130-B89B-A14784E27427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D39F4836-9628-4130-B89B-A14784E27427}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D39F4836-9628-4130-B89B-A14784E27427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15083B01-0D27-4E69-983A-DB0EB094FED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15083B01-0D27-4E69-983A-DB0EB094FED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15083B01-0D27-4E69-983A-DB0EB094FED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15083B01-0D27-4E69-983A-DB0EB094FED0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
