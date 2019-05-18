@@ -1,0 +1,14 @@
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.deps.json
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.runtimeconfig.json
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.runtimeconfig.dev.json
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.dll
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.pdb
+D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.csprojAssemblyReference.cache
+D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.csproj.CoreCompileInputs.cache
+D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.AssemblyInfoInputs.cache
+D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.AssemblyInfo.cs
+D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.dll
+D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.pdb

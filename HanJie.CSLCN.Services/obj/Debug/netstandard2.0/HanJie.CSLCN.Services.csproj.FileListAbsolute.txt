@@ -1,0 +1,9 @@
+D:\CSL-CN\HanJie.CSLCN.Services\bin\Debug\netstandard2.0\HanJie.CSLCN.Services.deps.json
+D:\CSL-CN\HanJie.CSLCN.Services\bin\Debug\netstandard2.0\HanJie.CSLCN.Services.dll
+D:\CSL-CN\HanJie.CSLCN.Services\bin\Debug\netstandard2.0\HanJie.CSLCN.Services.pdb
+D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.csprojAssemblyReference.cache
+D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.csproj.CoreCompileInputs.cache
+D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.AssemblyInfoInputs.cache
+D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.AssemblyInfo.cs
+D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.dll
+D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.pdb

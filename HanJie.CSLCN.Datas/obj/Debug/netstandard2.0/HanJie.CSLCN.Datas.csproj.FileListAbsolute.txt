@@ -1,0 +1,12 @@
+D:\CSL-CN\HanJie.CSLCN.Datas\obj\Debug\netstandard2.0\HanJie.CSLCN.Datas.csprojAssemblyReference.cache
+D:\CSL-CN\HanJie.CSLCN.Datas\obj\Debug\netstandard2.0\HanJie.CSLCN.Datas.csproj.CoreCompileInputs.cache
+D:\CSL-CN\HanJie.CSLCN.Datas\obj\Debug\netstandard2.0\HanJie.CSLCN.Datas.AssemblyInfoInputs.cache
+D:\CSL-CN\HanJie.CSLCN.Datas\obj\Debug\netstandard2.0\HanJie.CSLCN.Datas.AssemblyInfo.cs
+D:\CSL-CN\HanJie.CSLCN.Datas\bin\Debug\netstandard2.0\HanJie.CSLCN.Datas.deps.json
+D:\CSL-CN\HanJie.CSLCN.Datas\bin\Debug\netstandard2.0\HanJie.CSLCN.Datas.dll
+D:\CSL-CN\HanJie.CSLCN.Datas\bin\Debug\netstandard2.0\HanJie.CSLCN.Datas.pdb
+D:\CSL-CN\HanJie.CSLCN.Datas\bin\Debug\netstandard2.0\HanJie.CSLCN.Models.dll
+D:\CSL-CN\HanJie.CSLCN.Datas\bin\Debug\netstandard2.0\HanJie.CSLCN.Models.pdb
+D:\CSL-CN\HanJie.CSLCN.Datas\obj\Debug\netstandard2.0\HanJie.CSLCN.Datas.csproj.CopyComplete
+D:\CSL-CN\HanJie.CSLCN.Datas\obj\Debug\netstandard2.0\HanJie.CSLCN.Datas.dll
+D:\CSL-CN\HanJie.CSLCN.Datas\obj\Debug\netstandard2.0\HanJie.CSLCN.Datas.pdb
