@@ -4,7 +4,9 @@ using System.Text;
 
 namespace HanJie.CSLCN.Models.Dtos
 {
-    public class WikiPassageDto : DtoModelBase
+    public class WikiPassageDto : BaseDtoModel
     {
+        public string Title { get; set; }
+        public string Content { get; set; }
     }
 }

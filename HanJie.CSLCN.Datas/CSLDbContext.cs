@@ -8,6 +8,9 @@ namespace HanJie.CSLCN.Datas
 {
     public class CSLDbContext : DbContext
     {
+        /// <summary>
+        /// 存储主要的维基文章所使用的数据库表。
+        /// </summary>
         public DbSet<WikiPassage> WikiPassages { get; set; }
 
         public CSLDbContext()

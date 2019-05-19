@@ -44,14 +44,6 @@ namespace HanJie.CSLCN.WebApp
             services.AddDbContext<CSLDbContext>
                 (options => options.UseMySql(AppSettings.ConnectionString));  //b => b.MigrationsAssembly("HanJie.CSLCN.WebApp"))
 
-
-            CSLDbContext dbContext = new CSLDbContext();
-            dbContext.WikiPassages.Add(new WikiPassage() { Title = "Title", Content = "Content", CreateDate = DateTime.Now, LastModifyDate = DateTime.Now });
-            dbContext.SaveChanges();
-
-            WikiPassage passasge = dbContext.WikiPassages.Where(p => p.Title == "Title").FirstOrDefault();
-            throw new NotImplementedException();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
