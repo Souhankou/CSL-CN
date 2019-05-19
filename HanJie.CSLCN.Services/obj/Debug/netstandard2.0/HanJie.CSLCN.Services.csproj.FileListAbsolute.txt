@@ -7,3 +7,8 @@ D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.A
 D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.AssemblyInfo.cs
 D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.dll
 D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.pdb
+D:\CSL-CN\HanJie.CSLCN.Services\bin\Debug\netstandard2.0\HanJie.CSLCN.Datas.dll
+D:\CSL-CN\HanJie.CSLCN.Services\bin\Debug\netstandard2.0\HanJie.CSLCN.Models.dll
+D:\CSL-CN\HanJie.CSLCN.Services\bin\Debug\netstandard2.0\HanJie.CSLCN.Datas.pdb
+D:\CSL-CN\HanJie.CSLCN.Services\bin\Debug\netstandard2.0\HanJie.CSLCN.Models.pdb
+D:\CSL-CN\HanJie.CSLCN.Services\obj\Debug\netstandard2.0\HanJie.CSLCN.Services.csproj.CopyComplete

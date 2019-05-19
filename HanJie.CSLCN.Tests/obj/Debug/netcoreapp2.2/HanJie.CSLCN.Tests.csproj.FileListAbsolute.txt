@@ -12,3 +12,10 @@ D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.Assembly
 D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.AssemblyInfo.cs
 D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.dll
 D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.pdb
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Datas.dll
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Models.dll
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Services.dll
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Datas.pdb
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Models.pdb
+D:\CSL-CN\HanJie.CSLCN.Tests\bin\Debug\netcoreapp2.2\HanJie.CSLCN.Services.pdb
+D:\CSL-CN\HanJie.CSLCN.Tests\obj\Debug\netcoreapp2.2\HanJie.CSLCN.Tests.csproj.CopyComplete

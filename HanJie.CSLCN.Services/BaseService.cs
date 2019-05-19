@@ -11,7 +11,7 @@ namespace HanJie.CSLCN.Services
         where TDtoType : BaseDtoModel<TDtoType, TDataModelType>, new()
         where TDataModelType : BaseDataModel<TDataModelType, TDtoType>, new()     //约束继承此基类的子类必须拥有传输模型和数据模型，且数据模型和传输模型必须继承自 BaseDtoModel 和 BaseDataModel
     {
-        private CSLDbContext _cslDbContext { get; set; }
+        public CSLDbContext _cslDbContext { get; set; }
 
         public BaseService()
         {

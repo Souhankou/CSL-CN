@@ -76,6 +76,18 @@
       "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
         "type": "package"
       },
+      "Microsoft.EntityFrameworkCore.InMemory/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1938,6 +1950,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "HanJie.CSLCN.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "2.2.0",
           "Pomelo.EntityFrameworkCore.MySql": "2.2.0",
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
@@ -2129,6 +2142,19 @@
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "microsoft.entityframeworkcore.analyzers.2.2.0.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/2.2.0": {
+      "sha512": "WxvRXUwCGdY1Ze8GfZteWadsxrxpFRfZN8WJ1jcXZKp5eYo5WwmiBq5e3xIZR8cHxznqlqczJ3NpXjqyYpNK9w==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
@@ -6603,6 +6629,7 @@
       "HanJie.CSLCN.Datas >= 1.0.0",
       "HanJie.CSLCN.Models >= 1.0.0",
       "HanJie.CSLCN.Services >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.InMemory >= 2.2.0",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "xunit >= 2.4.0",
@@ -6660,6 +6687,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[15.9.0, )"

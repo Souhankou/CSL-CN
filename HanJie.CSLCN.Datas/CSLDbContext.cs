@@ -31,8 +31,19 @@ namespace HanJie.CSLCN.Datas
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string connStr = "User ID=root;Password=admin;Host=localhost;Port=3306;Database=CSLCN;Min Pool Size=0;Max Pool Size=100;";
-            optionsBuilder.UseMySql(connStr);
+            if (AppDomain.CurrentDomain.BaseDirectory.Contains("HanJie.CSLCN.Tests"))    //如果从单元测试调用此构造函数，则采用内存中数据库
+            {
+                var options = new DbContextOptionsBuilder<CSLDbContext>()
+                    .UseInMemoryDatabase(databaseName: "Add_Writes_to_database")
+                    .Options;
+                optionsBuilder.UseInMemoryDatabase("test");
+            }
+            else
+            {
+                string connStr = "User ID=root;Password=admin;Host=localhost;Port=3306;Database=CSLCN;Min Pool Size=0;Max Pool Size=100;";
+                optionsBuilder.UseMySql(connStr);
+            }
+
         }
 
     }
