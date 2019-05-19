@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HanJie.CSLCN.Models.Dtos
 {
-    public class UserInfoDto : BaseDtoModel<UserInfo, UserInfoDto>
+    public class UserInfoDto : BaseDtoModel<UserInfoDto, UserInfo>
     {
         /// <summary>
         /// 用户名

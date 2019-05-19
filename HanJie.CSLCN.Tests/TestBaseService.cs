@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -16,27 +17,51 @@ namespace HanJie.CSLCN.Tests
         [Fact]
         public async Task TestBaseServiceDbWrite_ShouldCreateAsync()
         {
-            var options = new DbContextOptionsBuilder<CSLDbContext>()
-                .UseInMemoryDatabase(databaseName: "Add_Writes_to_database")
-                .Options;
+            var service = new WikiPassageService();
 
-            using (var context = new CSLDbContext(options))
-            {
-                var service = new WikiPassageService();
+            await service.CreateAsync(BuildOneEntity());
+            WikiPassage passage = service.GetById(1);
 
-                WikiPassage passageToCreate = new WikiPassage();
-                passageToCreate.Title = "功能介绍";
-                passageToCreate.Content = "这是第一篇维基内容";
-                passageToCreate.CreateDate = DateTime.Now;
-                passageToCreate.LastModifyDate = DateTime.Now;
+            Assert.NotNull(passage);
+        }
 
-                await service.CreateAsync(passageToCreate);
+        [Fact]
+        public async Task TestBaseServiceDbDelte_ShouldDeleteAsync()
+        {
+            WikiPassageService service = new WikiPassageService();
+            await service.CreateAsync(BuildOneEntity());
 
-                WikiPassage passage = service.GetById(1);
+            WikiPassage passageToFind = service.GetById(1);
 
-                Assert.NotNull(passage);
+            await service.DeleteByIdAsync(1);
+            WikiPassage passage = service.GetById(1);
 
-            }
+            Assert.NotNull(passageToFind);
+            Assert.Null(passage);
+        }
+
+        [Fact]
+        public async Task TestBaseServiceDbUpdate_ShouldUpdate()
+        {
+            WikiPassageService service = new WikiPassageService();
+            await service.CreateAsync(BuildOneEntity());
+
+            WikiPassage passage = service.GetById(1);
+            passage.Content = "这是修改后的内容";
+
+            await service.UpdateAsync(passage);
+            Assert.True(service.GetById(1).Content == "这是修改后的内容");
+        }
+
+        private WikiPassage BuildOneEntity()
+        {
+            WikiPassage passage = new WikiPassage();
+            passage.Title = "功能介绍";
+            passage.Content = "这是第一篇维基内容";
+            passage.CreateDate = DateTime.Now;
+            passage.LastModifyDate = DateTime.Now;
+
+            return passage;
         }
     }
 }
