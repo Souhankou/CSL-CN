@@ -22,7 +22,7 @@ namespace HanJie.CSLCN.Services
         /// 添加数据
         /// </summary>
         /// <param name="dto"></param>
-        public async Task CreateAsync(TDataModelType data)
+        public async Task AddAsync(TDataModelType data)
         {
             if (data == null)
             {

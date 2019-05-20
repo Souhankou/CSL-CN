@@ -19,7 +19,7 @@ namespace HanJie.CSLCN.Tests
         {
             var service = new WikiPassageService();
 
-            await service.CreateAsync(BuildOneEntity());
+            await service.AddAsync(BuildOneEntity());
             WikiPassage passage = service.GetById(1);
 
             Assert.NotNull(passage);
@@ -29,7 +29,7 @@ namespace HanJie.CSLCN.Tests
         public async Task TestBaseServiceDbDelte_ShouldDeleteAsync()
         {
             WikiPassageService service = new WikiPassageService();
-            await service.CreateAsync(BuildOneEntity());
+            await service.AddAsync(BuildOneEntity());
 
             WikiPassage passageToFind = service.GetById(1);
 
@@ -44,7 +44,7 @@ namespace HanJie.CSLCN.Tests
         public async Task TestBaseServiceDbUpdate_ShouldUpdate()
         {
             WikiPassageService service = new WikiPassageService();
-            await service.CreateAsync(BuildOneEntity());
+            await service.AddAsync(BuildOneEntity());
 
             WikiPassage passage = service.GetById(1);
             passage.Content = "这是修改后的内容";

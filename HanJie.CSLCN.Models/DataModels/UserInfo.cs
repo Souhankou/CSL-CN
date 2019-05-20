@@ -25,6 +25,8 @@ namespace HanJie.CSLCN.Models.DataModels
         /// <summary>
         /// 昵称
         /// </summary>
+        [Required]
+        [StringLength(24)]
         public string NickName { get; set; }
     }
 }

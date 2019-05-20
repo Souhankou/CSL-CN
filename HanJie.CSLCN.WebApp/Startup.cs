@@ -11,6 +11,7 @@ using HanJie.CSLCN.Models.Common;
 using HanJie.CSLCN.Models.DataModels;
 using System;
 using System.Linq;
+using HanJie.CSLCN.Services;
 
 namespace HanJie.CSLCN.WebApp
 {
@@ -44,6 +45,8 @@ namespace HanJie.CSLCN.WebApp
             services.AddDbContext<CSLDbContext>
                 (options => options.UseMySql(AppSettings.ConnectionString));  //b => b.MigrationsAssembly("HanJie.CSLCN.WebApp"))
 
+            //注册单例对象
+            this.RegisterSingletons(ref services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -90,6 +93,18 @@ namespace HanJie.CSLCN.WebApp
             //将 AppSettings.json 配置文件中的值绑定到强类型模型
             AppSettings = this.Configuration.GetSection("AppSettings").Get<AppSettings>();
 
+        }
+
+        /// <summary>
+        /// 注册单例对象。
+        /// 
+        /// 备注：
+        ///     对象全局全体成员和访问共享，仅创建一次，任何调用皆返回同一对象，生命周期为程序启动至程序结束。
+        /// </summary>
+        /// <param name="services"></param>
+        private void RegisterSingletons(ref IServiceCollection services)
+        {
+            services.AddSingleton(new MenuService());
         }
     }
 }
