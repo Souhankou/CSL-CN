@@ -11,4 +11,9 @@
 ```cmd
 Add-Migration InitialCreate //修改 "InitialCreate" 为本次调整的详细说明
 Update-Database
+
+//备注，如果执行以上命令出现异常:
+An item with the same key has already been added. Key: Pomelo.EntityFrameworkCore.MySql.Infrastructure.Internal.MySqlOptionsExtension
+则注释 CSLDbContext 下的 OnConfiguring 方法，仅保留 base. 一行。
+
 ```
